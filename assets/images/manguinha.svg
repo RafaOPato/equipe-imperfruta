@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 460" role="img" aria-label="O Manguinha da Imperfruta, orgulhoso da mancha">
+  <ellipse cx="378" cy="404" rx="110" ry="15" fill="#173b26" opacity=".13"/>
+  <g transform="translate(80 -30)">
+  <defs>
+    <clipPath id="x-casca"><path d="M170 14 C248 12 320 76 340 162 C358 244 342 336 294 394 C270 424 240 442 206 444 C172 432 138 416 108 388 C54 342 24 258 34 178 C44 100 98 16 170 14 Z"/></clipPath>
+    <filter id="x-grao" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <!-- cabinho e folha, atras da fruta -->
+  <g>
+    <path d="M204 172 C196 150 206 130 226 120" stroke="#2f6a4a" stroke-width="15" stroke-linecap="round" fill="none"/>
+    <path d="M228 122 C266 88 336 86 380 118 C340 156 270 158 228 122 Z" fill="#2f6a4a"/>
+    <path d="M250 124 C290 114 332 116 364 124" stroke="#173b26" stroke-width="7" stroke-linecap="round" fill="none" opacity=".38"/>
+  </g>
+
+  <g transform="translate(256 288) rotate(-19) scale(.655) translate(-191 -228)">
+    <!-- casca -->
+    <g clip-path="url(#x-casca)">
+      <rect x="0" y="0" width="382" height="456" fill="#dc9c10"/>
+      <ellipse cx="222" cy="164" rx="196" ry="232" fill="#f3b21b"/>
+      <!-- verde que sobrou da ponta -->
+      <path d="M26 330 C90 400 206 428 286 372 C300 404 306 446 310 470 L14 470 Z" fill="#86b83a"/>
+      <!-- sol no ombro -->
+      <path d="M150 -30 L420 -30 L420 380 C348 316 330 214 292 150 C254 84 190 34 150 -30 Z" fill="#ff6a14"/>
+      <path d="M236 -30 L420 -30 L420 214 C372 158 326 100 282 54 C266 38 246 16 236 -30 Z" fill="#d9530a"/>
+      <!-- a casca tem defeito: a cicatriz de sol, ja curada -->
+      <path d="M70 330 C78 306 106 292 132 300 C158 308 176 330 168 354 C160 382 130 400 104 396 C80 392 60 374 64 352 C65 342 66 336 70 330 Z" fill="#b07a33"/>
+      <path d="M84 326 C104 308 134 310 150 328" stroke="#82561f" stroke-width="8" stroke-linecap="round" fill="none" opacity=".38"/>
+      <path d="M156 358 C146 380 124 392 100 392" stroke="#82561f" stroke-width="7" stroke-linecap="round" fill="none" opacity=".25"/>
+      <circle cx="98" cy="360" r="6" fill="#82561f" opacity=".4"/>
+      <circle cx="126" cy="372" r="4" fill="#82561f" opacity=".3"/>
+      <!-- lenticelas -->
+      <g fill="#82561f" opacity=".28">
+        <circle cx="300" cy="150" r="5"/><circle cx="326" cy="236" r="4.5"/><circle cx="268" cy="352" r="4.5"/>
+        <circle cx="300" cy="300" r="5.5"/><circle cx="238" cy="92" r="4"/><circle cx="334" cy="300" r="4"/>
+        <circle cx="222" cy="390" r="3.5"/><circle cx="80" cy="196" r="4"/><circle cx="58" cy="248" r="3.5"/>
+      </g>
+      <!-- grao de papel -->
+      <g style="mix-blend-mode:multiply" opacity=".2">
+        <rect x="0" y="0" width="382" height="456" filter="url(#x-grao)"/>
+      </g>
+    </g>
+    <path d="M206 444 C216 416 208 388 186 370" stroke="#dc9c10" stroke-width="9" stroke-linecap="round" fill="none" opacity=".6"/>
+
+    <!-- a cara de quem tem orgulho da mancha -->
+    <g fill="#173b26">
+      <path d="M106 196 C116 166 166 160 182 188 C190 216 126 232 106 196 Z"/>
+      <path d="M218 208 C228 180 272 176 286 200 C292 224 238 238 218 208 Z"/>
+    </g>
+    <g stroke="#173b26" fill="none" stroke-linecap="round">
+      <!-- a sobrancelha levantada e a outra, quieta -->
+      <path d="M82 108 C104 74 156 74 180 96" stroke-width="16"/>
+      <path d="M218 148 C242 140 272 142 288 152" stroke-width="14"/>
+      <!-- o sorriso de canto, que sobe mais de um lado -->
+      <path d="M134 272 C152 310 208 324 250 300 C264 292 272 276 274 258" stroke-width="21"/>
+    </g>
+  </g>
+</g>
+  <g>
+    <path d="M290 122 C260 146 216 178 182 202" stroke="#18261c" stroke-width="4" fill="none" opacity=".6"/>
+    <g transform="rotate(-8 140 246)">
+      <path d="M80 212 L186 192 L204 280 L98 300 Z" fill="#d6ad73"/>
+      <path d="M80 212 L186 192 L204 280 L98 300 Z" fill="none" stroke="#bf9152" stroke-width="3"/>
+      <circle cx="178" cy="208" r="7" fill="#f8f7f2" stroke="#bf9152" stroke-width="3"/>
+      <text x="100" y="244" font-family="'Permanent Marker', 'Comic Sans MS', cursive" font-size="26" fill="#18261c" transform="rotate(-5 100 244)">fora do</text>
+      <text x="104" y="276" font-family="'Permanent Marker', 'Comic Sans MS', cursive" font-size="26" fill="#18261c" transform="rotate(-5 104 276)">padrão</text>
+    </g>
+  </g>
+</svg>
