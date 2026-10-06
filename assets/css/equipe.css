@@ -241,6 +241,25 @@ main {
     color: #1b1208;
 }
 
+.projeto .site {
+    background: #f8f7f2;
+    color: #1b2e23;
+}
+
+.projeto .site::before {
+    background-image: url("../icons/site-escuro.svg");
+}
+
+.projeto .botao.sem-link {
+    background: transparent;
+    border-color: #cfe3d6;
+    color: #cfe3d6;
+}
+
+.projeto .site.sem-link::before {
+    background-image: url("../icons/site-claro.svg");
+}
+
 .equipe {
     padding-top: 48px;
 }
